@@ -1,39 +1,43 @@
-# MovieMirror — Movie Search App
+# 🎬 MovieMirror
 
-A multi-page React application that lets you search movies, view detailed 
-information and save your favourites.
+A production-level movie discovery app built with React.js and TMDB API.
 
-## Features
-- Search any movie using the OMDB API
-- View detailed movie information on a dedicated page
-- Each movie has its own unique URL
-- Add movies to favourites and persist them across sessions
-- Remove movies from favourites
-- Responsive dark theme UI
+![MovieMirror](https://moviemirrorapp.netlify.app)
 
-## Technologies Used
-- React.js
-- React Router DOM
-- Tailwind CSS
-- OMDB API
-- localStorage
-- Vite
+## 🚀 Live Demo
 
-## Live Demo
-[Click here to view](https://moviemirrorapp.netlify.app)
+👉 [moviemirrorapp.netlify.app](https://moviemirrorapp.netlify.app)
 
-## Screenshot
-(add screenshot here)
+## ✨ Features
 
-## Pages
-- **Home** — Search and browse movies
-- **Movie Detail** — Full movie info with poster, plot, cast, rating
-- **Favourites** — Your saved movies with remove option
+- 🎯 **Trending movies** displayed on homepage load — no empty screen
+- 🔍 **Debounced search** — optimized API calls while typing
+- 🎭 **Genre filtering** — filter movies by Action, Comedy, Drama, Horror and more
+- 🎬 **YouTube trailer** embedded on movie detail page
+- 🎥 **Similar movies** section on every detail page
+- ❤️ **Favourites** — save movies with automatic localStorage persistence
+- 💀 **Skeleton loading** — Netflix-style loading placeholders
+- 📱 **Fully responsive** — works on mobile, tablet and desktop
+- 🎨 **Cinematic UI** — dark theme with hero banner and smooth animations
 
-## How to Run Locally
-1. Clone the repo
-2. Run `npm install`
-3. Run `npm run dev`
+## 🛠️ Tech Stack
 
-## API Used
-OMDB API - https://www.omdbapi.com
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend framework |
+| Zustand | Global state management |
+| React Router v6 | Client-side routing |
+| Tailwind CSS | Styling |
+| TMDB API | Movie data, posters, trailers |
+| Vite | Build tool |
+| Netlify | Deployment |
+
+## ⚡ Performance Optimizations
+
+- `useMemo` — prevents unnecessary recalculations on re-renders
+- `useCallback` — memoizes event handlers
+- `useDebounce` — custom hook that limits API calls while user types
+- Skeleton screens — improves perceived performance
+- Lazy image loading — faster initial page load
+
+## 📁 Project Structure
