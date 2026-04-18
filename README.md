@@ -41,3 +41,64 @@ A production-level movie discovery app built with React.js and TMDB API.
 - Lazy image loading — faster initial page load
 
 ## 📁 Project Structure
+
+src/
+├── components/        # Reusable UI components
+│   ├── SkeletonCard.jsx
+│   └── SkeletonGrid.jsx
+├── pages/             # Route pages
+│   ├── Home.jsx
+│   ├── MovieDetail.jsx
+│   └── Favourites.jsx
+├── stores/            # Zustand state management
+│   ├── movieStore.js
+│   └── favouriteStore.js
+├── services/          # API layer
+│   └── api.js
+├── hooks/             # Custom React hooks
+│   └── useDebounce.js
+└── utils/             # Helper functions
+
+## 🔧 Run Locally
+
+1. Clone the repo
+```bash
+git clone https://github.com/bathamlakshay/movie-search-app.git
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Create `.env` file in root
+```bash
+VITE_TMDB_API_KEY=your_tmdb_key_here
+```
+
+4. Start development server
+```bash
+npm run dev
+```
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage](add-screenshot-here)
+
+### Movie Detail
+![Movie Detail](add-screenshot-here)
+
+### Favourites
+![Favourites](add-screenshot-here)
+
+## 🙏 Credits
+
+- Movie data provided by [TMDB API](https://www.themoviedb.org)
+- Icons by [Lucide React](https://lucide.dev)
+
+## 👨‍💻 Author
+
+**Lakshay Batham**
+- LinkedIn: www.linkedin.com/in/lakshaybathamb27082262
+- GitHub: [@bathamlakshay](https://github.com/bathamlakshay)
