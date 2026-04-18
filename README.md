@@ -86,13 +86,16 @@ npm run dev
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](add-screenshot-here)
+<img width="1910" height="917" alt="image" src="https://github.com/user-attachments/assets/5c059052-83c9-467d-a1d1-bda31d1e4331" />
+
 
 ### Movie Detail
-![Movie Detail](add-screenshot-here)
+<img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/d2746118-7fb3-47aa-a132-d9ade1ba88b4" />
+
 
 ### Favourites
-![Favourites](add-screenshot-here)
+![Uploading image.png…]()
+
 
 ## 🙏 Credits
 
