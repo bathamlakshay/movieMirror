@@ -2,7 +2,8 @@
 
 A production-level movie discovery app built with React.js and TMDB API.
 
-![MovieMirror](https://moviemirrorapp.netlify.app)
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/ef88dc98-d5c3-467a-9734-278c279437df" />
+
 
 ## 🚀 Live Demo
 
