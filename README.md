@@ -94,7 +94,8 @@ npm run dev
 
 
 ### Favourites
-![Uploading image.png…]()
+<img width="1905" height="898" alt="image" src="https://github.com/user-attachments/assets/9bf65816-4a79-40ae-8e6c-97b1461a3126" />
+
 
 
 ## 🙏 Credits
