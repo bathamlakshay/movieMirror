@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { getTrending, getMoviesByCategory, searchMovies, getGenres, getMoviesByGenre} from '../services/Api'
+import { getTrending, getMoviesByCategory, searchMovies, getGenres, getMoviesByGenre} from '../services/api'
 
 
 const useMovieStore = create((set) => ({

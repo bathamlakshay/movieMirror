@@ -1,6 +1,6 @@
 import useFavouriteStore from '../stores/FavouriteStore'
 import { useNavigate } from 'react-router-dom'
-import { IMG_BASE_URL } from '../services/Api'
+import { IMG_BASE_URL } from '../services/api'
 
 function Favourites() {
     const navigate = useNavigate()

@@ -1,6 +1,6 @@
 import { useParams, useNavigate} from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { getMovieByid, getMovieVideos, getSimilarMovies, IMG_BASE_URL, IMG_ORIGINAL } from '../services/Api'
+import { getMovieByid, getMovieVideos, getSimilarMovies, IMG_BASE_URL, IMG_ORIGINAL } from '../services/api'
 import useFavouriteStore from '../stores/FavouriteStore'
 
 function MovieDetail() {
